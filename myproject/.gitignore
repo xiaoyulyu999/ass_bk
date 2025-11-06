@@ -67,3 +67,4 @@ Thumbs.db
 *.pid
 *.log
 docker-compose.override.yml
+.idea
