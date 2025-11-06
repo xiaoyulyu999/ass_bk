@@ -1,0 +1,19 @@
+{
+    "name_csv": "samples.csv",
+    "headers_csv": [
+        "patient_id",
+        "first_name",
+        "last_name",
+        "date_of_birth",
+        "age",
+        "gender",
+        "phone_number",
+        "email",
+        "address",
+        "emergency_contact_name",
+        "emergency_contact_phone",
+        "insurance_provider",
+        "insurance_number",
+        "diagnosis"
+    ]
+}
