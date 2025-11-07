@@ -30,6 +30,7 @@ def update_existing_config_headers():
         with open(path_of_config, "w")as write_config:
             json.dump(config, write_config, indent=4)
             print("Updating configration ... ...")
+        print(config["headers_csv"])
     else:
         raise ValueError("There are no columns in the data frame.")
 
@@ -56,3 +57,6 @@ def drop_down_select(given_list):
     return drop_down_select
 
 df = pd.read_csv(path_of_csv)
+
+if __name__ == "__main__":
+    update_existing_config_headers()

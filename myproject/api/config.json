@@ -1,6 +1,7 @@
 {
     "name_csv": "samples.csv",
     "headers_csv": [
+        "patient_id",
         "first_name",
         "last_name",
         "date_of_birth",
