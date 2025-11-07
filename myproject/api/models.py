@@ -5,7 +5,7 @@ class Patient(models.Model):
     last_name = models.CharField(max_length=100)
     age = models.IntegerField()
     gender = models.CharField(max_length=100)
-    dob = models.DateField()
+    date_of_birth = models.DateField()
     address = models.CharField(max_length=100)
     email = models.EmailField()
     emergency_contact_name = models.CharField(max_length=100)
