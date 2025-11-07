@@ -56,7 +56,7 @@ def drop_down_select(given_list):
         drop_down_select.append((element, element))
     return drop_down_select
 
-df = pd.read_csv(path_of_csv)
-
 if __name__ == "__main__":
+    df = pd.read_csv(path_of_csv)
     update_existing_config_headers()
+    print(get_patient_detail_by_id(4))
